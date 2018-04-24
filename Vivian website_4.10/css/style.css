@@ -1,0 +1,126 @@
+﻿
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    line-height:25px;
+}
+.text-center {
+    text-align:center;
+}
+.sub-head {
+        padding-bottom:50px;
+        display:block;
+    }
+.pad-top-botm {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+  
+h2 {
+    color:#242222;
+    font-weight:900;
+    
+}
+
+   #pre-div {
+    background-color: #139,129,151;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+
+
+/*Menu border Color*/
+.navbar-default {
+border-color: #000;
+background-color:#242222;
+}
+/*Logo Image */
+.navbar-brand-logo {
+    max-height:60px;
+    padding-bottom:20px;
+}
+/*top-menu links color*/
+.navbar-default .navbar-nav > li > a {
+    color: ##242222;
+}
+/*top-menu links color on hover*/
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #242222;
+    }
+
+/*top-menu links & margin*/    
+.navbar-nav > li > a {
+    margin: 5px 0px 5px 0px;
+}
+
+
+#home{
+background: url(../img/head.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+}
+    #home h1 {
+        padding:150px 20px 20px 0px;
+        color:##242222;
+        font-size:40px;
+        font-weight:900;
+
+    }
+    #home .head-text span {
+        display: block; 
+        font-size: 25px; 
+        color: #fff; 
+        margin-bottom: 25px;
+    }
+        #home .head-text span >i {
+             margin-right: 10px; 
+             color: #159238;
+        }
+   
+    #home .overlay {
+              background:url(../img/overlays/06.png);        
+        min-height:400px;
+    }
+  
+    .div-trans {
+padding-top: 5px;
+background-color: rgba(0, 0, 0, 0.5);
+min-height: 330px;
+margin-top: 150px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 30px;
+}
+        .div-trans i {
+            margin-left: 10px; 
+            margin-right: 10px; 
+            color: #159238;
+        }
+        .div-trans span {
+            color: #ff0000;
+        }
+
+
+
+#about {
+     background-color: #efefef; 
+     padding-top: 80px;
+}
+.big-icon {
+    font-size:250px;
+}
+
+
+#contact {
+    padding-top:80px;
+    background-color: #efefef;
+}
+
